@@ -1,6 +1,6 @@
 @media screen and (min-width : 400px) {
 /* two column layout*/
-*primary {
+#primary {
 	width: 50%
 	flaot: left;
 }
@@ -9,9 +9,34 @@
 	flaot: right;
 }
 
+ 
+/* PAGE: portfolio */
+
+#gallery li {
+	width: 28.3333%;
+}
+
+#gallery li:nth-child(4n) {
+	clear:  left;
+
+}
+
+
+
+
+
+@media screen and (min-width : 660px) {  
+/* two clollum layout */
+#primary {
+	width: 50%
+	float: left;
+}	
+#secondary {
+	width: 40%
+	float: right;
+}
+}
+
 @media screen and (min-width : 660px) {
-	body
- {
- 	background: darkgreen;
- }
+
 }
