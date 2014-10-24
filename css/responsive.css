@@ -1,0 +1,17 @@
+@media screen and (min-width : 400px) {
+/* two column layout*/
+*primary {
+	width: 50%
+	flaot: left;
+}
+#secondary {
+	width: 40%
+	flaot: right;
+}
+
+@media screen and (min-width : 660px) {
+	body
+ {
+ 	background: darkgreen;
+ }
+}
